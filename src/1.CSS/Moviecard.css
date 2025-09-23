@@ -1,0 +1,82 @@
+.loadingpm{
+  display: flex;
+  font-size: 1.7rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.2rem;
+  padding: .8rem 1rem;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.movie-card-deck {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  aspect-ratio: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+.movie-poster{
+ position: relative;
+ width: 100%;
+ height: 400px;
+ overflow: hidden;
+}
+.movie-poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.movie-poster:hover {
+   transform: scale(1.05);
+  transition: transform 0.1s ease;
+}
+.movie-overlay {
+  position: absolute;
+  top: 0px;
+  right: 1px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favourite-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.653);
+  transition: transform 0.3s ease;
+  filter: brightness(1.5) contrast(2);
+}
+.favourite-btn:hover {
+  transform: scale(1.2);
+  color: #f8f8f8;
+}
+.movie-info {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.movie-info h3 {
+  margin: 0.3rem 0 0.1rem 0;
+  font-size: 1.1rem;
+}
+
+.movie-info p {
+  font-size: 1rem;
+  color: #ccc;
+  margin: 0.3rem 0 0.1rem 0;
+
+}
