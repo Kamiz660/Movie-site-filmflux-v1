@@ -1,5 +1,10 @@
 <img width="1919" height="1079" alt="Screenshot_2" src="https://github.com/user-attachments/assets/3226e287-4935-41bd-abe1-d9626c4f98e6" />
 
+## Features
+- add to favourites
+- api movie list call and display
+- search
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
