@@ -1,9 +1,8 @@
 import { createContext, useState, useEffect, useContext } from "react";
 
-// ✅ This should be called MovieContext
 const MovieContext = createContext();
 
-// ✅ Provider component
+// Provider component
 export const MovieProvider = ({ children }) => {
   const [favourites, setFavourites] = useState([]);
 
@@ -42,5 +41,5 @@ export const MovieProvider = ({ children }) => {
   );
 };
 
-// ✅ Custom hook for using context
+// Custom hook for using context
 export const useMovieContext = () => useContext(MovieContext);
