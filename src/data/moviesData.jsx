@@ -32,5 +32,5 @@ function usePopularMoviesArray()
 }
 // useState is instial state declaration
 // and useEffect is is what gets run on render, empty array means run once when mounts
-// logs whaetevr err is and sets error = failed to load...*/}
+// logs whaetevr err is and sets error = failed to load...
 export default usePopularMoviesArray;
