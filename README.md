@@ -1,7 +1,9 @@
-This project has been replaced by a new implementation using a different stack.
-Active development continues here:
+#### This project has been replaced by a new implementation using a different stack.
+#### Active development continues here:
 https://github.com/filmflux/filmflux.git
+---
 
+A React-based movie explorer allowing users to search, browse, and add movies to favorites.
 
 <img width="1919" height="1079" alt="Screenshot_2" src="https://github.com/user-attachments/assets/3226e287-4935-41bd-abe1-d9626c4f98e6" />
 
